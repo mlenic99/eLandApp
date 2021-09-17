@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="margin_items_newLand">10dp</dimen>
+    <dimen name="comment_textSize">18sp</dimen>
+    <dimen name="bUpdate_margin">20dp</dimen>
+</resources>

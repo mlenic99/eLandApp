@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">eLand</string>
+    <string name="name">Name</string>
+    <string name="datestamp">DateStamp</string>
+    <string name="kultura">KULTURA</string>
+    <string name="area">AREA</string>
+    <string name="enter_name">Enter name</string>
+    <string name="hint_comment">Comment</string>
+    <string name="update_button">UPDATE</string>
+    <string name="add_sowing_date_button">Select sowing date</string>
+    <string name="sowing_date_textView">Sowing date</string>
+    <string name="treatment_hint">Treatment</string>
+    <string name="area_ha_hint">Area [ha]</string>
+    <string name="culture_hint">Culture</string>
+    <string name="name_hint">Name</string>
+    <string name="locate_button">LOCATE</string>
+    <string name="location_textView">Location</string>
+    <string name="reference_number">Reference number</string>
+    <string name="ref_number">Ref number</string>
+    <string name="updateLand">Update land</string>
+    <string name="addLand">Add land</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="latitude">Latitude</string>
+</resources>
