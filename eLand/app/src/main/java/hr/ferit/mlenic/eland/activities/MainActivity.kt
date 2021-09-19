@@ -82,7 +82,6 @@ class MainActivity : AppCompatActivity(), OnLandSelectedListener, OnLandDeletedL
         intent.putExtra("latitude", land.landLatitude)
         intent.putExtra("longitude", land.landLongitude)
 
-        Toast.makeText(this, land.landLatitude.toString(), Toast.LENGTH_SHORT).show()
         startActivity(intent)
     }
 
@@ -96,10 +95,11 @@ class MainActivity : AppCompatActivity(), OnLandSelectedListener, OnLandDeletedL
                 if (soundPoolIsLoaded) {
                     this.soundPool.play(this.soundMap[R.raw.sound]!!, 1f, 1f, 1, 0, 1f)
                 }
+                Toast.makeText(this, "${land.landName} deleted.", Toast.LENGTH_LONG).show()
             }
             .setNegativeButton("No") { dialogInterface, i ->
                 dialogInterface.dismiss()
             }.create().show()
-        Toast.makeText(this, "${land.landName} deleted.", Toast.LENGTH_LONG).show()
+
     }
 }

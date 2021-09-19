@@ -18,3 +18,5 @@ interface LandDao {
     @Query("Select * from lands order by refNum ASC")
     fun getAllLand(): LiveData<List<Land>>
 }
+
+

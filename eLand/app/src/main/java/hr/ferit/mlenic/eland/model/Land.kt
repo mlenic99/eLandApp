@@ -20,3 +20,5 @@ data class Land(
         @PrimaryKey(autoGenerate = true) var id = 0
     }
 
+
+

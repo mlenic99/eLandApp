@@ -112,6 +112,7 @@ class NewLandActivity : AppCompatActivity(), OnMarkerLocationChangedListener {
                     )
                     updatedLand.id = landID
                     viewModel.updateLand(updatedLand)
+                    Toast.makeText(this, "$landName updated.", Toast.LENGTH_LONG).show()
                     this.finish()
                 } else {
                     Toast.makeText(this, "All fields must be filled.", Toast.LENGTH_SHORT).show()
